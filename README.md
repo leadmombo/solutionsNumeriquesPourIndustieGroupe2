@@ -1,0 +1,1 @@
+# solutionsNumeriquesPourIndustieGroupe2
