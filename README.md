@@ -47,7 +47,7 @@ Realisation :
 
 Le principe du programme repose sur la lecture de la température ambiante et la consigne de température à une fréquence d’environ une lecture toutes les minutes.Nous avons donc dans un premier temps gerer la conection wifi avec l'architecture ESP8266 qui offre la possibilté de se connecter à un réseau Wi-Fi.
 Sur arduino IDE nous avons donc gerer cette connection.
-![affichage Capture connection wifi](.temp/.png)
+![affichage Capture connection wifi](./temp.PNG)
 ```
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
@@ -274,14 +274,14 @@ void loop() {
 ## Partie 2: Partie 2 Affichage graphique de la température avec Node RED et Spark plug , l'affichage la température et l'humiditer sur ignition.
 
 Voici notre worflow.
-![Workflow](./nodeRedCap.png)
+![Workflow](./nodeRedCap.PNG)
 
 Le resultat .
 ![display](./jauge.png)
 
 ## Annexes et autres captures :
-![connectionBroker](./connectToBroker.png)
+![connectionBroker](./connectToBroker.PNG)
 
-![IngnitionConfig](./ignitionLauncher.png)
+![IngnitionConfig](./ignitionLauncher.PNG)
 
-![Ingnition2Config](./configServer.png)
+![Ingnition2Config](./configServer.PNG)
